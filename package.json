@@ -1,0 +1,28 @@
+{
+  "name": "redd",
+  "version": "1.0.0",
+  "description": "Reddit helper - grabs pages of posts",
+  "main": "index.js",
+  "dependencies": {
+    "async": "^1.1.0",
+    "request": "^2.57.0",
+    "tape": "^4.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencevans/redd.git"
+  },
+  "keywords": [
+    "reddit"
+  ],
+  "author": "Ben Evans <ben@bensbit.co.uk> (http://bensbit.co.uk)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencevans/redd/issues"
+  },
+  "homepage": "https://github.com/bencevans/redd#readme"
+}
