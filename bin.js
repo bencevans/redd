@@ -6,6 +6,11 @@ if (!sub) {
   process.exit(1)
 }
 
+function handleError (err) {
+  console.error(err)
+  process.exit(1)
+}
+
 var subreddit = redd(sub, function (err, posts) {
   if (err) {
     return handleError(err)
