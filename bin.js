@@ -15,5 +15,9 @@ var subreddit = redd(sub, function (err, posts) {
   if (err) {
     return handleError(err)
   }
-  console.log(JSON.stringify(posts, null, 2))
+
+  var readablePosts = posts.forEach(function (post) {
+    console.log(post.data.title + "\n" + post.data.url + "\n")
+  })
+
 })
