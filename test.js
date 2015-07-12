@@ -19,8 +19,6 @@ test('fetching front page', function (t) {
   t.plan(2)
   redd('Music', function (err, posts) {
     t.error(err)
-    t.equal(posts.length, 26)
+    t.equal(posts.length, 25)
   })
 })
-
-// test('fetching x pages', function ()

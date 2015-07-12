@@ -16,12 +16,8 @@ module.exports = function redd (options, callback) {
     throw new Error('no callback provided')
   }
 
-  getFrontPage(options.subreddit, callback)
+  getPageAfter(options.subreddit, options.after || false, callback)
 
-}
-
-function getFrontPage (subreddit, callback) {
-  getPageAfter(subreddit, false, callback)
 }
 
 function getPageAfter (subreddit, after, callback) {
