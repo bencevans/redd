@@ -17,7 +17,7 @@ test('error thrown when no callback provided', function (t) {
 
 test('fetching front page', function (t) {
   t.plan(2)
-  redd('Music', function (err, posts) {
+  redd('all', function (err, posts) {
     t.error(err)
     t.equal(posts.length, 25)
   })
