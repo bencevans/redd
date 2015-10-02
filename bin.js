@@ -11,13 +11,12 @@ function handleError (err) {
   process.exit(1)
 }
 
-var subreddit = redd(sub, function (err, posts) {
+redd(sub, function (err, posts) {
   if (err) {
     return handleError(err)
   }
 
-  var readablePosts = posts.forEach(function (post) {
-    console.log(post.data.title + "\n" + post.data.url + "\n")
+  posts.forEach(function (post) {
+    console.log(post.data.title + '\n' + post.data.url + '\n')
   })
-
 })

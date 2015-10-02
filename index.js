@@ -1,6 +1,4 @@
 var request = require('request')
-var async = require('async')
-var qs = require('querystring')
 
 module.exports = function redd (options, callback) {
   if (typeof options === 'string') {
@@ -17,7 +15,6 @@ module.exports = function redd (options, callback) {
   }
 
   getPageAfter(options.subreddit, options.after || false, callback)
-
 }
 
 function getPageAfter (subreddit, after, callback) {
@@ -31,5 +28,4 @@ function getPageAfter (subreddit, after, callback) {
     var posts = body.data.children
     callback(null, posts)
   })
-
 }

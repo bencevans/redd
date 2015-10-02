@@ -8,9 +8,11 @@
     "request": "2.64.0",
     "tape": "4.2.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "standard": "5.3.1"
+  },
   "scripts": {
-    "test": "node test.js"
+    "test": "standard && node test.js"
   },
   "repository": {
     "type": "git",
