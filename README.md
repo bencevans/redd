@@ -41,4 +41,4 @@ Arg2: array of post ojbects
 
 ## Licence
 
-MIT © Ben Evans
+MIT © [Ben Evans](http://bensbit.co.uk)
