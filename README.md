@@ -34,7 +34,9 @@ URL slug for desired subreddit
 #### callback
 
 Type: `function`
+
 Arg1: err
+
 Arg2: array of post ojbects
 
 ## Licence
