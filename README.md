@@ -1,6 +1,6 @@
 # Redd
 
-> Grab Reddit subreddits
+> Grab a subreddit's posts
 
 ## Install
 
