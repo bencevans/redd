@@ -4,7 +4,7 @@
   "description": "Reddit helper - grabs pages of posts",
   "main": "index.js",
   "dependencies": {
-    "request": "2.65.0",
+    "request": "2.66.0",
     "tape": "4.2.2"
   },
   "devDependencies": {
